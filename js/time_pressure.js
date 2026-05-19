@@ -38,7 +38,7 @@
 
   function setUI(ms) {
     const el = ensureTimerUI();
-    el.textContent = `下一次自动移动在 Next auto move in: ${(ms / 1000).toFixed(1)}s`;
+    el.textContent = `下一次自动移动在<br>Next auto move in: ${(ms / 1000).toFixed(1)}s`;
   }
 
   function reset() {
